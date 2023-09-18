@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+
+    <!-- font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="events.css">
+
+    <!-- JQuery CDN link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navigation start -->
+    <nav>
+        <a href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
+
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html" class="active">Events</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a target="_blank" href="https://gyangangamoodle.in/course/index.php?categoryid=5"><img src="images/moodle.png" class="moodle"></a>
+                </li>
+            </ul>
+
+            <img src="images/menu.png" id="menu-btn" alt="">
+        </div>
+    </nav>
+    <!-- Navigation ends -->
+
+
+    <!-- Hero section starts from here -->
+    <section id="about-home">
+        <h2>
+            Our Events
+        </h2>
+    </section>
+    <!-- Hero section ends from here -->
+
+
+    <!-- Blog container starts from here -->
+    <section id="blog-container">
+        <div class="blogs">
+            <div class="post">
+                <img src="images/event-gyanotsav.png" class="top" alt="">
+                <h3>GYANOTSAV</h3>
+                <p>
+                    An annual winter event of Gyan Ganga Group of Institutions GYANOTSAV 2023. A week long event comprising of variousSports competitions and tournaments many technical and non-technical events tech-expos Pitching competitions Fun Fair followed by the Felicitation
+                    ceremony to award the winners and the best entrepreneurs around the city.
+                </p>
+                <a href="https://www.gyanotsav.com/">Read More</a>
+            </div>
+
+
+            <div class="post">
+                <img src="images/event3.png" class="top" alt="">
+                <h3>Gyan Ganga Dholida’22</h3>
+                <p>01 October, 2022</p>
+
+                <a href="dholidanight.html">Read More</a>
+            </div>
+
+
+            <div class="post">
+                <img src="images/event2.png" alt="">
+                <h3>District level Inter College Women’s Football Competition</h3>
+                <p>02 November, 2022</p>
+                <p>
+                    District level Inter College Women’s Football Competition was organized on 2nd November in the courtyard of Gyan Ganga College of Excellence. In the competition, a football match was organized between UTD including the team of St. Aloysius and Gyan Ganga
+                    College of Excellence.
+                </p>
+                <a href="womensfootball.html">Read More</a>
+            </div>
+
+
+            <div class="post">
+                <img src="images/event4.png" alt="">
+                <h3>Tourism Day '22</h3>
+                <p>27 September, 2022</p>
+
+
+                <a href="tourismday.html">Read More</a>
+            </div>
+
+        </div>
+        <div class="cate">
+            <h2>Visit our Socials for more</h2>
+            <hr>
+            <a href="https://www.instagram.com/gyanganga_official/">INSTAGRAM</a>
+            <hr>
+            <a href="https://www.facebook.com/gyangangaofficial">FACEBOOK</a>
+            <hr>
+            <a href="https://www.youtube.com/channel/UCEfn51liPy_u08o1UFQqSgg">YOUTUBE</a>
+            <hr>
+            <a href="https://twitter.com/gyangangagroup?lang=en">TWITTER</a>
+            <hr>
+        </div>
+    </section>
+    <!-- Blog container ends from here -->
+
+
+    <!-- Footer section starts from here -->
+    <footer>
+        <div class="footer-col">
+            <h3>GYAN GANGA COLLEGE OF EXCELLENCE</h3>
+            <li>Tilwara Ghat Road, Besides Bargi Hills, Jabalpur (M.P) 482003</li>
+            <li>Mobile: 9425323089 , 9826486605, 9584778811, 9340641103</li>
+            <li>Web: www.ggce.co.in</li>
+            <li>Email: principalggce2018@gmail.com</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <a href="about.html">
+                <li>About Us</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact Us</li>
+            </a>
+        </div>
+
+
+        <div class="copyright">
+
+            <div class="pro-links">
+                <a href="https://www.facebook.com/gyangangaofficial"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/gyanganga_official/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/school/gyangangajabalpur/"><i class="fab fa-linkedin-in"></i></a>
+
+            </div>
+        </div>
+    </footer>
+    <!-- Footer section ends from here -->
+    <script>
+        // Show menu links on burger click
+        $('#menu-btn').click(function() {
+            $('nav .navigation ul').addClass('active')
+        });
+
+        // Hide navbar on click function
+        $('#menu-close').click(function() {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+</body>
+
+</html>

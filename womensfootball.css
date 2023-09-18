@@ -1,0 +1,60 @@
+#blog-container .blogpost {
+    width: 60%;
+    margin: auto;
+}
+
+#blog-container .blogpost .top {
+    width: 100%;
+    height: 100%;
+}
+
+#blog-container .blogpost p {
+    text-align: justify;
+}
+
+#blog-container .blogpost img {
+    width: 230px;
+    height: 200px;
+}
+
+
+/*------------------------------------------------------*/
+
+
+/*------------------ For Tablet screen -----------------*/
+
+
+/*------------------------------------------------------*/
+
+@media screen and (max-width: 789px) {
+    #blog-container .blogpost {
+        padding-top: 30px;
+        width: 100%;
+    }
+    #blog-container .blogpost img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+}
+
+
+/*------------------------------------------------------*/
+
+
+/*------------------ For Mobile screen -----------------*/
+
+
+/*------------------------------------------------------*/
+
+@media screen and (max-width: 475px) {
+    #blog-container .blogpost {
+        padding-top: 70px;
+        width: 100%;
+    }
+    #blog-container .blogpost img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Day</title>
+
+    <!-- font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="events.css">
+    <link rel="stylesheet" href="tourismday.css">
+
+    <!-- JQuery CDN link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navigation start -->
+    <nav>
+        <a href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
+
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a target="_blank" href="https://gyangangamoodle.in/course/index.php?categoryid=5"><img src="images/moodle.png" class="moodle"></a>
+                </li>
+            </ul>
+            <img src="images/menu.png" id="menu-btn" alt="">
+
+        </div>
+    </nav>
+    <!-- Navigation ends -->
+
+
+    <!-- Post body starts from here -->
+
+    <div id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <h1>World Tourism Day 2022</h1>
+                <img src="images/event4.png" class="top">
+                <img src="images/event4-1.jpg">
+                <img src="images/event4-2.jpg">
+                <img src="images/event4-3.jpg">
+                <img src="images/event4-4.jpg">
+                <img src="images/event4-5.jpg">
+                <img src="images/event4-6.jpg">
+                <img src="images/event4-7.jpg">
+                <img src="images/event4-8.jpg">
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Post body ends from here -->
+
+
+    <!-- Footer section starts from here -->
+    <footer>
+        <div class="footer-col">
+            <h3>GYAN GANGA COLLEGE OF EXCELLENCE</h3>
+            <li>Tilwara Ghat Road, Besides Bargi Hills, Jabalpur (M.P) 482003</li>
+            <li>Mobile: 9425323089 , 9826486605, 9584778811, 9340641103</li>
+            <li>Web: www.ggce.co.in</li>
+            <li>Email: principalggce2018@gmail.com</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <a href="about.html">
+                <li>About Us</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact Us</li>
+            </a>
+        </div>
+
+
+        <div class="copyright">
+
+            <div class="pro-links">
+                <a href="https://www.facebook.com/gyangangaofficial"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/gyanganga_official/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/school/gyangangajabalpur/"><i class="fab fa-linkedin-in"></i></a>
+
+            </div>
+        </div>
+    </footer>
+    <!-- Footer section ends from here -->
+    <script>
+        // Show menu links on burger click
+        $('#menu-btn').click(function() {
+            $('nav .navigation ul').addClass('active')
+        });
+
+        // Hide navbar on click function
+        $('#menu-close').click(function() {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+
+</body>
+
+</html>
